@@ -1,0 +1,622 @@
+nav{
+    border: 1px solid white;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    box-shadow: 1px 1px 5px rgb(165, 161, 161);
+}
+#nav1{
+    border: 1px solid white;
+    width: 40px;
+    height: 25px;
+    margin-left: 80px;
+    background-image: url(twinzloveproductsICON.jpeg);
+    background-size: cover;
+}
+#nav2{
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: small;
+}
+#nav3{
+    border: 1px solid white;
+    width: 200px;
+    height: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 770px;
+}
+header{
+    border: 1px solid white;
+    height: 350px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    margin-top: 51px;
+}
+section{
+    border: 1px solid none;
+    height: 80px;
+    text-align: center;
+}
+main{
+    border: 1px solid white;
+    height: 1250px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -40px;
+}
+.maindiv1{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twiz1.jpeg);
+    background-size: cover;
+}
+#maindiv1a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv1b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    overflow: hidden;
+    background-color: none;
+    transition: 0.5s;
+}
+.addcart{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.productsDiv{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.maindiv1:hover {
+    #maindiv1a {
+    background-image: url(Twinz1a.jpeg);
+}
+    #maindiv1b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv2{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz2.jpeg);
+    background-size: cover;
+}
+#maindiv2a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv2b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv2{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart2{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv2:hover {
+    #maindiv2a {
+    background-image: url(Twinz2a.jpeg);
+}
+    #maindiv2b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv3{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz3.jpeg);
+    background-size: cover;
+}
+#maindiv3a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv3b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv3{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart3{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv3:hover {
+    #maindiv3b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv4{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz4.jpeg);
+    background-size: cover;
+}
+#maindiv4a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv4b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv4{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart4{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv4:hover {
+    #maindiv4a {
+    background-image: url(Twinz4a.jpeg);
+}
+    #maindiv4b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv5{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(twinz5.jpeg);
+    background-size: cover;
+}
+#maindiv5a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv5b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv5{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart5{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv5:hover {
+    #maindiv5a {
+    background-image: url(Twinz5a.jpeg);
+}
+    #maindiv5b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv6{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz6.jpeg);
+    background-size: cover;
+}
+#maindiv6a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv6b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv6{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart6{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv6:hover {
+    #maindiv6a {
+    background-image: url(Twinz6a.jpeg);
+}
+    #maindiv6b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv7{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz7.jpeg);
+    background-size: cover;
+}
+#maindiv7a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv7b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv7{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart7{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv7:hover {
+    #maindiv7a {
+    background-image: url(Twinz7a.jpeg);
+}
+    #maindiv7b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv8{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz8.jpeg);
+    background-size: cover;
+}
+#maindiv8a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv8b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv8{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart8{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv8:hover {
+    #maindiv8a {
+    background-image: url(Twinz8a.jpeg);
+}
+    #maindiv8b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv9{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz9.jpeg);
+    background-size: cover;
+}
+#maindiv9a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv9b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv9{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart9{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv9:hover {
+    #maindiv9b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv10{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz10.jpeg);
+    background-size: cover;
+}
+#maindiv10a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv10b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv10{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart10{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv10:hover{
+    #maindiv10a {
+    background-image: url(Twinz10a.jpeg);
+}
+    #maindiv10b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv11{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz11.jpeg);
+    background-size: cover;
+}
+#maindiv11a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv11b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv11{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart11{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv11:hover{
+    #maindiv11b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+.maindiv12{
+    border: 1px solid white;
+    height: 320px;
+    width: 280px;
+    background-image: url(Twinz12.jpeg);
+    background-size: cover;
+}
+#maindiv12a{
+    border: 1px solid white;
+    height: 320px;
+    background-size: cover;
+}
+#maindiv12b{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.productsDiv12{
+    border: 1px solid none;
+    height: 50px;
+    background-color: white;
+    padding-top: 3px;
+}
+.addcart12{
+    border: 1px solid none;
+    height: 50px;
+    width: 280px;
+    background-color: none;
+    margin-top: 10px;
+}
+.maindiv12:hover{
+    #maindiv12b{
+        height: 110px;
+        transform: translateY(-60px);
+    }
+}
+#divPro{
+    border: 1px solid white;
+    height: 150px;
+    text-align: center;
+}
+#Bu1{
+    color: rgb(82, 82, 231);
+    background-color: white;
+    height: 40px;
+    width: 220px;
+    border: 2px solid rgb(71, 110, 236);
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: small;
+    font-family: sans-serif;
+}
+.d2{
+    border: 1px solid rgb(247, 244, 244);
+    height: 250px;
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+}
+footer{
+    border: 1px solid none;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.df1{
+    border: 1px solid white;
+    width: 40px;
+    height: 25px;
+    background-image: url(twinzloveproductsICON.jpeg);
+    background-size: cover;
+    margin-left: 50px;
+}
+.df2{
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+}
+.df3{
+    border: 1px solid none;
+    width: 60px;
+    height: 50px;
+    margin-left: 800px;
+    background-image: url(294654_visa_icon.png);
+    background-size: cover;
+}
+.df4{
+    border: 1px solid none;
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    background-image: url(mastercard-4.svg);
+    background-size: cover;
+}
+.whatsapp{
+    border: 1px solid none;
+    width: 75px;
+    height: 75px;
+    background-image: url(whatsappicon.png);
+    background-size: cover;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: -65px;
+    position: sticky;
+    bottom: 30px;
+}
